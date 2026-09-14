@@ -1,0 +1,5 @@
+this file has sample text inside.
+they will be used for the assignment.
+I will use this file to test our pythons text statistics script.
+The AI agnet will read this file and count lines, the words and characters.
+This is the final line
