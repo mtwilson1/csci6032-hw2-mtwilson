@@ -1,0 +1,12 @@
+.git
+.git/*
+
+*.ipynb
+
+credentials
+credentials.*
+**/credentials
+**/credentials.*
+
+.DS_Store
+**/.DS_Store
