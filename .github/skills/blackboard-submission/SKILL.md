@@ -15,6 +15,10 @@ Follow this workflow strictly. Do NOT auto-approve terminal commands or browser 
 
 ## 2. Packaging
 - Prepare `csci6032-hw2-mtwilson.tar.gz` from the committed `HEAD`. 
+- Use the committed tree explicitly, including `AGENTS.md` and the `.github/` directory:
+  ```bash
+  git archive --format=tar HEAD -- AGENTS.md .github/ CSCI6032_hw2.ipynb Dockerfile README.md sample.txt src/ tests/ | gzip -9 > csci6032-hw2-mtwilson.tar.gz
+  ```
 - EXCLUDE `.git`, credentials, caches, or unrelated files.
 - List the archive contents and show the exact notebook, archive, repository URL, and submission text you propose to use.
 
