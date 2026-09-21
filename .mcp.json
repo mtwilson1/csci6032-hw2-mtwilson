@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright-extension": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--extension"
+      ]
+    }
+  }
+}
