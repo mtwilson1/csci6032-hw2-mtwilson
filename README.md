@@ -18,6 +18,17 @@ Example output:
 {"lines": 5, "words": 44, "characters": 235}
 ```
 
+To include the most frequent words, pass a non-negative count with `--top`:
+
+```bash
+python3 src/text_stats.py --top 3 sample.txt
+```
+
+The output includes a `top_words` array of objects containing each word and its
+count. Words are compared case-insensitively and returned in descending
+frequency order, with alphabetical order used to break ties. The words in
+`top_words` are lowercase.
+
 The script exits with status code 1 and prints a JSON error message if the file cannot be found.
 
 ### Running tests
